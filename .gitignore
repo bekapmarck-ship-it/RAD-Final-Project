@@ -427,6 +427,12 @@ FodyWeavers.xsd
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
 
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local database configuration and credentials
+App.config
 # ---- Project-specific ----
 # Real database connection settings stay on each person's computer.
 # Commit App.config.example instead; copy it to App.config locally.
