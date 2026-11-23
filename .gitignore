@@ -30,3 +30,6 @@ packages/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Local database configuration and credentials
+App.config
