@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <connectionStrings>
+    <!-- Copy this file to App.config and enter your own MySQL details. Never commit App.config. -->
+    <add name="HotelDb"
+         connectionString="Server=localhost;Port=3306;Database=hotel_booking;User ID=YOUR_USER;Password=YOUR_PASSWORD;"
+         providerName="MySql.Data.MySqlClient" />
+  </connectionStrings>
+</configuration>
